@@ -1,15 +1,14 @@
 {
   "name": "tailwind-practice",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "tailwind.config.js",
   "scripts": {
-    "start": "tailwindcss build src/style.css -o public/styles.css"
+    "tailwind": "npx tailwindcss -i ./src/main.css -o ./src/output.css --watch"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.4.14"
   }
 }
