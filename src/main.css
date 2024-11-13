@@ -8,7 +8,7 @@
        border-radius: theme('borderRadius.lg');
        padding: theme('spacing.1');
        box-shadow: theme('boxShadow.lg');
-       border: theme('border.2');
+       border: theme('border.1');
      }
      /* ... */
    }
