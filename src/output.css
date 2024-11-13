@@ -554,9 +554,7 @@ video {
   display: none;
 }
 
-.static {
-  position: static;
-}
+/* ... */
 
 .absolute {
   position: absolute;
@@ -566,40 +564,16 @@ video {
   position: relative;
 }
 
-.left-0 {
-  left: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
 .right-10 {
   right: 2.5rem;
-}
-
-.right-32 {
-  right: 8rem;
 }
 
 .right-28 {
   right: 7rem;
 }
 
-.right-20 {
-  right: 5rem;
+.top-10 {
+  top: 2.5rem;
 }
 
 .col-start-1 {
@@ -618,24 +592,16 @@ video {
   grid-column-end: 4;
 }
 
-.col-end-1 {
-  grid-column-end: 1;
-}
-
 .row-start-1 {
   grid-row-start: 1;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
-.mb-7 {
-  margin-bottom: 1.75rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .flex {
@@ -674,14 +640,6 @@ video {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
@@ -690,17 +648,12 @@ video {
   border-radius: 0.375rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
+.rounded-none {
+  border-radius: 0px;
 }
 
 .border-2 {
   border-width: 2px;
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -717,18 +670,6 @@ video {
   background-image: none;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-16 {
   padding: 4rem;
 }
@@ -737,20 +678,20 @@ video {
   padding: 0.5rem;
 }
 
-.pl-1 {
-  padding-left: 0.25rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
+.p-3 {
+  padding: 0.75rem;
 }
 
 .pb-1 {
   padding-bottom: 0.25rem;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
+.pl-1 {
+  padding-left: 0.25rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .align-middle {
@@ -765,16 +706,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -800,11 +731,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-slate-500 {
-  --tw-text-opacity: 1;
-  color: rgb(100 116 139 / var(--tw-text-opacity));
-}
-
 .opacity-75 {
   opacity: 0.75;
 }
@@ -817,6 +743,11 @@ video {
 
 .hover\:animate-pulse:hover {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.hover\:bg-slate-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
 .hover\:text-slate-200:hover {
