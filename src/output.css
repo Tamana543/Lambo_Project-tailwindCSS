@@ -584,6 +584,22 @@ video {
   top: 2.5rem;
 }
 
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -608,56 +624,28 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
-.mb-72 {
-  margin-bottom: 18rem;
-}
-
-.mb-52 {
-  margin-bottom: 13rem;
-}
-
-.mb-32 {
-  margin-bottom: 8rem;
-}
-
-.mb-28 {
-  margin-bottom: 7rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
-.mt-72 {
-  margin-top: 18rem;
-}
-
-.mt-52 {
-  margin-top: 13rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -712,16 +700,16 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
 
-.overflow-scroll {
-  overflow: scroll;
-}
-
-.text-wrap {
-  text-wrap: wrap;
+.gap-4 {
+  gap: 1rem;
 }
 
 .text-nowrap {
@@ -790,6 +778,10 @@ video {
   padding-right: 1rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .align-middle {
   vertical-align: middle;
 }
@@ -841,6 +833,14 @@ video {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.hover\:border-b-2:hover {
+  border-bottom-width: 2px;
+}
+
 .hover\:bg-slate-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
@@ -849,6 +849,11 @@ video {
 .hover\:text-slate-200:hover {
   --tw-text-opacity: 1;
   color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-100:hover {
