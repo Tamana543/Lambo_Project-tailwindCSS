@@ -11,7 +11,9 @@
          
           
          <!--NovBar-->
-          <nav class="bg-black col-start-1 col-end-2 row-start-1 h-full sm:hidden">
+          <nav class="bg-black col-start-1 col-end-2 row-start-1 h-full 
+          lg:block
+          sm:hidden">
                <h3 class="flex justify-end p-3 ">
                     <span class="text-lg hover:animate-pulse cursor-pointer">
                          <a 
@@ -51,10 +53,10 @@
                     </li>
                </ul>
           </nav>
-         <div>
-          <img src="gifS/download.jpg" alt="" srcset="" class="w-5">
+         <div class="inline sm:inline lg:hidden">
+          <img src="gifS/download.jpg" alt="" srcset="" class="w-5 bg-none">
          </div>
-         <main class=" bg-gray-900 col-start-2 col-end-4 p-16 sm:p-5 sm:col-start-1">
+         <main class=" bg-gray-900 lg:col-start-2 lg:col-end-4 lg:p-16 sm:p-5 sm:col-start-1 ">
           
                <h1 class="text-5xl font-bold text-slate-300 pb-1 ">
                     <a href="/">Lamborghini</a>
@@ -82,8 +84,8 @@
           
           ">
           <span class=" rounded-sm pb-1 hover:text-white hover:border-b-2 cursor-pointer">Offers</span> </h4>
-          <div class=" grid grid-rows-2 grid-cols-3 sm:grid-rows-1 sm:grid-cols-1"> <!--Cards-->
-          <div class="sm:flex_media">
+          <div class=" grid lg:grid-rows-2 lg:grid-cols-3 sm:grid-rows-1 sm:grid-cols-1"> <!--Cards-->
+          <div class="sm:flex_media lg:grid">
                <div class="card rounded-none mb-10">
                     <div class=""> 
                     <img
