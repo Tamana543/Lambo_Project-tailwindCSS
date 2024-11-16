@@ -12,5 +12,11 @@
        width: fit-content;
 
      }
+     .flex_media {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     }
      /* ... */
    }
