@@ -652,6 +652,14 @@ video {
   width: 16rem !important;
 }
 
+.w-screen {
+  width: 100vw !important;
+}
+
+.w-full {
+  width: 100% !important;
+}
+
 .cursor-pointer {
   cursor: pointer !important;
 }
@@ -865,6 +873,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3 !important;
+  }
+
   .lg\:col-start-2 {
     grid-column-start: 2 !important;
   }
@@ -875,6 +887,10 @@ video {
 
   .lg\:block {
     display: block !important;
+  }
+
+  .lg\:flex {
+    display: flex !important;
   }
 
   .lg\:grid {
@@ -889,8 +905,32 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   }
 
+  .lg\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
   .lg\:grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .lg\:grid-rows-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .lg\:grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr)) !important;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row !important;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between !important;
   }
 
   .lg\:p-16 {
