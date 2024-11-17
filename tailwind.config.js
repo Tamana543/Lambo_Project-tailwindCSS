@@ -7,3 +7,6 @@ module.exports = {
   plugins: [],
 }
 
+module.exports = {
+  important: true,
+}
