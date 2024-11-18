@@ -7,6 +7,6 @@ module.exports = {
   plugins: [],
 }
 
-module.exports = {
-  important: true,
-}
+// module.exports = {
+//   important: true,
+// }
