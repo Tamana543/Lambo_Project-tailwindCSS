@@ -624,6 +624,10 @@ video {
   top: 1.25rem;
 }
 
+.top-20 {
+  top: 5rem;
+}
+
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -886,6 +890,14 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:top-32 {
+    top: 8rem;
+  }
+
+  .sm\:top-48 {
+    top: 12rem;
+  }
+
   .sm\:col-start-1 {
     grid-column-start: 1;
   }
@@ -942,12 +954,20 @@ video {
     padding: 1.25rem;
   }
 
+  .sm\:p-1 {
+    padding: 0.25rem;
+  }
+
   .sm\:pl-3 {
     padding-left: 0.75rem;
   }
 
   .sm\:pl-4 {
     padding-left: 1rem;
+  }
+
+  .sm\:pr-5 {
+    padding-right: 1.25rem;
   }
 
   .sm\:align-middle {
