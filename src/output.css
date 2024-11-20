@@ -840,6 +840,10 @@ video {
     top: 12rem;
   }
 
+  .sm\:top-0 {
+    top: 0px;
+  }
+
   .sm\:col-start-1 {
     grid-column-start: 1;
   }
