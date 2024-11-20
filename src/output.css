@@ -572,14 +572,6 @@ video {
   position: relative;
 }
 
-.right-10 {
-  right: 2.5rem;
-}
-
-.right-28 {
-  right: 7rem;
-}
-
 .right-5 {
   right: 1.25rem;
 }
@@ -848,10 +840,6 @@ video {
     top: 12rem;
   }
 
-  .sm\:right-24 {
-    right: 6rem;
-  }
-
   .sm\:col-start-1 {
     grid-column-start: 1;
   }
@@ -892,6 +880,14 @@ video {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
 
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
+  .sm\:gap-1 {
+    gap: 0.25rem;
+  }
+
   .sm\:p-5 {
     padding: 1.25rem;
   }
@@ -902,16 +898,16 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:top-10 {
-    top: 2.5rem;
-  }
-
   .lg\:right-10 {
     right: 2.5rem;
   }
 
   .lg\:right-28 {
     right: 7rem;
+  }
+
+  .lg\:top-10 {
+    top: 2.5rem;
   }
 
   .lg\:col-span-3 {
