@@ -644,6 +644,14 @@ video {
   margin-top: 0.5rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .inline {
   display: inline;
 }
@@ -872,6 +880,14 @@ video {
     margin: 0.75rem;
   }
 
+  .sm\:mr-3 {
+    margin-right: 0.75rem;
+  }
+
+  .sm\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -912,6 +928,10 @@ video {
     justify-content: center;
   }
 
+  .sm\:justify-around {
+    justify-content: space-around;
+  }
+
   .sm\:gap-1 {
     gap: 0.25rem;
   }
@@ -927,6 +947,14 @@ video {
 
   .sm\:pl-4 {
     padding-left: 1rem;
+  }
+
+  .sm\:align-middle {
+    vertical-align: middle;
+  }
+
+  .sm\:align-super {
+    vertical-align: super;
   }
 
   .sm\:text-2xl {
