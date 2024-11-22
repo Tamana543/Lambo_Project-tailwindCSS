@@ -968,6 +968,12 @@ video {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:ml-5 {
+    margin-left: 1.25rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:right-10 {
     right: 2.5rem;
