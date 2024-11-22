@@ -831,24 +831,12 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:absolute {
-    position: absolute;
-  }
-
   .sm\:top-0 {
     top: 0px;
   }
 
   .sm\:top-48 {
     top: 12rem;
-  }
-
-  .sm\:right-14 {
-    right: 3.5rem;
-  }
-
-  .sm\:left-14 {
-    left: 3.5rem;
   }
 
   .sm\:col-start-1 {
@@ -889,6 +877,10 @@ video {
 
   .sm\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+
+  .sm\:justify-start {
+    justify-content: flex-start;
   }
 
   .sm\:justify-end {
